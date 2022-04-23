@@ -1,18 +1,29 @@
-:root {
-    --main-color: #de8c1e;
-    --default-border: 1px solid var(--main-color);
-}
-
 body {
-    margin: 20px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-p {
-    color: var(--main-color);
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #5ce5e5;
 }
 
-a {
-    color: var(--main-color);
-    border: var(--default-border);
+@media (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
+    div {
+        background-color: wheat;
+    }
+}
+
+span {
+    font-size: 36px;
+}
+
+@media screen and (orientation: landscape) {
+    span {
+        display: none;
+    }
 }
