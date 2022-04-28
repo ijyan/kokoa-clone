@@ -20,8 +20,14 @@
     display: block;
     color: #2e363e;
     text-align: center;
-    position: relative;
     padding: 18px 0;
+}
+
+.nav__icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
 }
 
 .nav__notification {
@@ -32,8 +38,8 @@
     border-radius: 10px;
     align-items: center;
     position: absolute;
-    top: 12px;
-    right: 94px;
+    top: -4px;
+    right: -10px;
     background-color: #ff6229;
     color: #fff;
     font-weight: 500;
@@ -46,7 +52,7 @@
     height: 5px;
     border-radius: 3px;
     background-color: #ff6229;
-    top: 18px;
-    right: 96px;
+    top: 4px;
+    right: -8px;
     position: absolute;
 }
