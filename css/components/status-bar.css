@@ -7,12 +7,12 @@
     width: 100%;
 }
 
-.status-bar__column:first-child span {
-    margin-right: 5px;
-}
-
 .status-bar__column {
     width: calc(100% / 3);
+}
+
+.status-bar__column svg {
+    vertical-align: top;
 }
 
 .status-bar__column:nth-child(2) {
@@ -26,6 +26,6 @@
     align-items: center;
 }
 
-.status-bar__column .fa-battery-half {
-    margin: 0 5px;
+.status-bar__column:last-child svg {
+    margin-left: 4px;
 }
