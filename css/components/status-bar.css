@@ -9,6 +9,7 @@
 
 .status-bar__column {
     width: calc(100% / 3);
+    font-weight: 500;
 }
 
 .status-bar__column svg {
@@ -18,6 +19,7 @@
 .status-bar__column:nth-child(2) {
     display: flex;
     justify-content: center;
+    font-weight: 700;
 }
 
 .status-bar__column:last-child {
