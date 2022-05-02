@@ -5,6 +5,7 @@
     border-top: 1px solid #ededed;
     position: fixed;
     bottom: 0;
+    z-index: 1;
 }
 
 .nav__ul {
