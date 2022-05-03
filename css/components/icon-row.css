@@ -11,6 +11,9 @@
     width: 25%;
     position: relative;
 }
+.icon-row__icon-wrap {
+    position: relative;
+}
 
 .icon-row__icon span {
     margin: 20px 0 0;
@@ -21,6 +24,6 @@
 }
 
 .icon-row__alert {
-    top: -2px;
-    right: 28px;
+    top: -24px;
+    right: -8px;
 }
