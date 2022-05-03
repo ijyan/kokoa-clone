@@ -21,4 +21,10 @@
 
 .screen-header__a {
     display: block;
+    position: relative;
+}
+
+.screen-header__alert {
+    top: -2px;
+    right: -4px;
 }

@@ -10,3 +10,12 @@
     font-weight: 500;
     font-size: 12px;
 }
+
+.dot {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #ff6229;
+    position: absolute;
+}
