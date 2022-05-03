@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>More - Kokoa Talk</title>
+
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- remixicon -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- status bar -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M.69 6.997A17.925 17.925 0 0 1 12 3c4.285 0 8.22 1.497 11.31 3.997l-1.256 1.556A15.933 15.933 0 0 0 12 5C8.191 5 4.694 6.33 1.946 8.553L.69 6.997zm3.141 3.89A12.946 12.946 0 0 1 12 8c3.094 0 5.936 1.081 8.169 2.886l-1.257 1.556A10.954 10.954 0 0 0 12 10c-2.618 0-5.023.915-6.912 2.442l-1.257-1.556zm3.142 3.89A7.967 7.967 0 0 1 12 13c1.904 0 3.653.665 5.027 1.776l-1.257 1.556A5.975 5.975 0 0 0 12 15c-1.428 0-2.74.499-3.77 1.332l-1.257-1.556zm3.142 3.89A2.987 2.987 0 0 1 12 18c.714 0 1.37.25 1.885.666L12 21l-1.885-2.334z"
+                    />
+                </svg>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>52%</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path d="M3 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm18 4h2v6h-2V9z" />
+                </svg>
+            </div>
+        </div>
+        <!-- //status bar -->
+
+        <!-- nav -->
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a class="nav__a" href="friends.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                                d="M4 22a8 8 0 1 1 16 0h-2a6 6 0 1 0-12 0H4zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"
+                            />
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="chats.html">
+                        <span class="nav__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M7.291 20.824L2 22l1.176-5.291A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.956 9.956 0 0 1-4.709-1.176zm.29-2.113l.653.35A7.955 7.955 0 0 0 12 20a8 8 0 1 0-8-8c0 1.334.325 2.618.94 3.766l.349.653-.655 2.947 2.947-.655z"
+                                />
+                            </svg>
+                            <span class="nav__notification badge">1</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="find.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                                d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+                            />
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__a" href="more.html">
+                        <span class="nav__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M4.5 10.5c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5S6 12.825 6 12s-.675-1.5-1.5-1.5zm15 0c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5S21 12.825 21 12s-.675-1.5-1.5-1.5zm-7.5 0c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5 1.5-.675 1.5-1.5-.675-1.5-1.5-1.5z"
+                                />
+                            </svg>
+                            <span class="nav__alert"></span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- //nav  -->
+
+        <!-- header -->
+        <header class="screen-header">
+            <h1 class="screen-header__title">More</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <a class="screen-header__a" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                                d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+                            />
+                        </svg>
+                    </a>
+                </span>
+                <span>
+                    <a class="screen-header__a" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path d="M20 3v14a4 4 0 1 1-2-3.465V5H9v12a4 4 0 1 1-2-3.465V3h13zM5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                        </svg>
+                    </a>
+                </span>
+                <span>
+                    <a class="screen-header__a" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                                d="M2 12c0-.865.11-1.703.316-2.504A3 3 0 0 0 4.99 4.867a9.99 9.99 0 0 1 4.335-2.505 3 3 0 0 0 5.348 0 9.99 9.99 0 0 1 4.335 2.505 3 3 0 0 0 2.675 4.63c.206.8.316 1.638.316 2.503 0 .865-.11 1.703-.316 2.504a3 3 0 0 0-2.675 4.629 9.99 9.99 0 0 1-4.335 2.505 3 3 0 0 0-5.348 0 9.99 9.99 0 0 1-4.335-2.505 3 3 0 0 0-2.675-4.63C2.11 13.704 2 12.866 2 12zm4.804 3c.63 1.091.81 2.346.564 3.524.408.29.842.541 1.297.75A4.993 4.993 0 0 1 12 18c1.26 0 2.438.471 3.335 1.274.455-.209.889-.46 1.297-.75A4.993 4.993 0 0 1 17.196 15a4.993 4.993 0 0 1 2.77-2.25 8.126 8.126 0 0 0 0-1.5A4.993 4.993 0 0 1 17.195 9a4.993 4.993 0 0 1-.564-3.524 7.989 7.989 0 0 0-1.297-.75A4.993 4.993 0 0 1 12 6a4.993 4.993 0 0 1-3.335-1.274 7.99 7.99 0 0 0-1.297.75A4.993 4.993 0 0 1 6.804 9a4.993 4.993 0 0 1-2.77 2.25 8.126 8.126 0 0 0 0 1.5A4.993 4.993 0 0 1 6.805 15zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                            />
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <!-- main -->
+        <main class="main-screen more-screen">
+            <!-- user-component -->
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://avatars.githubusercontent.com/u/87649569?v=4" class="user-component__avatar user-component__avatar--xl" alt="" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Kim Kyeong Hye</h4>
+                        <h5 class="user-component__subtitle">010-1234-5678</h5>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path d="M6.455 19L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455zm-.692-2H20V5H4v13.385L5.763 17zM8 10h8v2H8v-2z" />
+                    </svg>
+                </div>
+            </div>
+            <!-- //user-component -->
+            <!-- icon-row -->
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1h2zm11 7H4v11h16V8zm-4.964 2.136l1.414 1.414-4.95 4.95-3.536-3.536L9.38 11.55l2.121 2.122 3.536-3.536z"
+                        />
+                    </svg>
+                    <span>Calendar</span>
+                </div>
+                <div class="icon-row__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M6.5 2h11a1 1 0 0 1 .8.4L21 6v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6l2.7-3.6a1 1 0 0 1 .8-.4zM19 8H5v12h14V8zm-.5-2L17 4H7L5.5 6h13zM9 10v2a3 3 0 0 0 6 0v-2h2v2a5 5 0 0 1-10 0v-2h2z"
+                        />
+                    </svg>
+                    <span>Talk Drive</span>
+                </div>
+                <div class="icon-row__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-5-7h2a3 3 0 0 0 6 0h2a5 5 0 0 1-10 0zm1-2a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm8 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                        />
+                    </svg>
+                    <span>Emoticons</span>
+                </div>
+                <div class="icon-row__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M8 20v-5h2v5h9v-7H5v7h3zm-4-9h16V8h-6V4h-4v4H4v3zM3 21v-8H2V7a1 1 0 0 1 1-1h5V3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3h5a1 1 0 0 1 1 1v6h-1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"
+                        />
+                    </svg>
+                    <span>Themes</span>
+                </div>
+                <div class="icon-row__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-4.987-3.744A7.966 7.966 0 0 0 12 20c1.97 0 3.773-.712 5.167-1.892A6.979 6.979 0 0 0 12.16 16a6.981 6.981 0 0 0-5.147 2.256zM5.616 16.82A8.975 8.975 0 0 1 12.16 14a8.972 8.972 0 0 1 6.362 2.634 8 8 0 1 0-12.906.187zM12 13a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                        />
+                    </svg>
+                    <span>Account</span>
+                </div>
+                <div class="icon-row__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M10 14.676v-.062c0-2.508 2.016-4.618 4.753-5.233C14.389 7.079 11.959 5.2 8.9 5.2 5.58 5.2 3 7.413 3 9.98c0 .969.36 1.9 1.04 2.698.032.038.083.094.152.165a3.568 3.568 0 0 1 1.002 2.238 3.612 3.612 0 0 1 2.363-.442c.166.026.302.046.405.06A7.254 7.254 0 0 0 10 14.675zm.457 1.951a9.209 9.209 0 0 1-2.753.055 19.056 19.056 0 0 1-.454-.067 1.612 1.612 0 0 0-1.08.212l-1.904 1.148a.806.806 0 0 1-.49.117.791.791 0 0 1-.729-.851l.15-1.781a1.565 1.565 0 0 0-.439-1.223 5.537 5.537 0 0 1-.241-.262C1.563 12.855 1 11.473 1 9.979 1 6.235 4.537 3.2 8.9 3.2c4.06 0 7.403 2.627 7.85 6.008 3.372.153 6.05 2.515 6.05 5.406 0 1.193-.456 2.296-1.229 3.19-.051.06-.116.13-.195.21a1.24 1.24 0 0 0-.356.976l.121 1.423a.635.635 0 0 1-.59.68.66.66 0 0 1-.397-.094l-1.543-.917a1.322 1.322 0 0 0-.874-.169c-.147.023-.27.04-.368.053-.316.04-.64.062-.969.062-2.694 0-4.998-1.408-5.943-3.401zm6.977 1.31a3.325 3.325 0 0 1 1.676.174 3.25 3.25 0 0 1 .841-1.502c.05-.05.087-.09.106-.112.489-.565.743-1.213.743-1.883 0-1.804-1.903-3.414-4.4-3.414-2.497 0-4.4 1.61-4.4 3.414s1.903 3.414 4.4 3.414c.241 0 .48-.016.714-.046.08-.01.188-.025.32-.046z"
+                        />
+                    </svg>
+                    <span>Openchat</span>
+                </div>
+            </div>
+            <!-- //icon-row -->
+            <!-- more-suggestions-->
+            <div class="more-suggestions">
+                <h4 class="more-suggestions__title">Suggestions</h4>
+                <div class="more-suggestions__icons">
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-img">
+                            <img src="https://www.manisteelibrary.org/site-assets/images/icons/snapchat-app-icon.png/@@images/d0222e74-a678-4594-87ed-d559242cec3d.png" alt="" />
+                        </div>
+                        <span class="more-suggestions__icon-text"> Kokoa Story </span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-img">
+                            <img src="https://www.manisteelibrary.org/site-assets/images/icons/snapchat-app-icon.png/@@images/d0222e74-a678-4594-87ed-d559242cec3d.png" alt="" />
+                        </div>
+                        <span class="more-suggestions__icon-text"> Kokoa Story </span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-img">
+                            <img src="https://www.manisteelibrary.org/site-assets/images/icons/snapchat-app-icon.png/@@images/d0222e74-a678-4594-87ed-d559242cec3d.png" alt="" />
+                        </div>
+                        <span class="more-suggestions__icon-text"> Kokoa Story </span>
+                    </div>
+                </div>
+            </div>
+            <!-- //more-suggestions-->
+        </main>
+        <!-- //main -->
+    </body>
+</html>
