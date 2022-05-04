@@ -1,0 +1,20 @@
+.settings__item {
+    padding: 20px 0;
+    border-bottom: var(--main-border);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__title {
+    margin: 0 0 0 20px;
+}
+
+.settings__item-column {
+    display: flex;
+    align-items: center;
+}
+
+.settings__item-column:last-child {
+    opacity: 0.5;
+}
