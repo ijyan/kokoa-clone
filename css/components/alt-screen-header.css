@@ -3,10 +3,30 @@
     margin: 0 0 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.alt-header__column {
+    width: calc(100% / 3);
+}
+
+.alt-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.alt-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.alt-header__column span:last-child {
+    margin-left: 20px;
 }
 
 .alt-header__title {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
