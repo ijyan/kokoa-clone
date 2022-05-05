@@ -90,7 +90,7 @@
     position: relative;
 }
 
-.open-post__photo img {
+.open-post__photo--avatar {
     width: 120px;
     height: 120px;
     border-radius: 16px;
@@ -107,6 +107,15 @@
     bottom: 8px;
     right: 8px;
     font-size: 13px;
+}
+
+.open-post__heart-count svg {
+    fill: #fff;
+    transition: fill 0.2s ease-in-out;
+}
+
+.open-post__photo:hover svg {
+    fill: tomato;
 }
 
 .open-post__heart-count span {
