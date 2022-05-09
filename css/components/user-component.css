@@ -20,37 +20,45 @@
 }
 
 .user-component__avatar {
-    width: 70px;
-    height: 70px;
+    width: 50rem;
+    height: 50rem;
     border-radius: 40%;
-    margin: 0 20px 0 0;
+    margin: 0 10rem 0 0;
 }
 
 .user-component__avatar--xl {
-    width: 80px;
-    height: 80px;
+    width: 58rem;
+    height: 58rem;
 }
 
 .user-component__avatar--sm {
-    width: 60px;
-    height: 60px;
+    width: 42rem;
+    height: 42rem;
 }
 
 .user-component__title {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18rem;
 }
 
 .user-component__title--not-bold {
     font-weight: 400;
+    font-size: 16rem;
 }
 
 .user-component__subtitle {
-    margin: 10px 0 0;
+    margin: 10rem 0 0;
     opacity: 0.5;
+    font-size: 14rem;
 }
 
 .user-component__time {
-    margin: 0 0 8px;
+    margin: 0 0 8rem;
     display: block;
+    font-size: 12rem;
+    color: #aaa;
+}
+
+.user-component__column--count {
+    font-size: 14rem;
 }

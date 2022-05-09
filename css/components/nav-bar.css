@@ -1,8 +1,8 @@
 .nav {
     width: 100%;
-    height: 70px;
+    height: 52rem;
     background-color: #f9f9fa;
-    border-top: 1px solid #ededed;
+    border-top: 1rem solid #ededed;
     position: fixed;
     bottom: 0;
     z-index: 1;
@@ -21,13 +21,13 @@
     display: block;
     color: #2e363e;
     text-align: center;
-    padding: 18px 0;
+    padding: 12rem 0;
 }
 
 .nav__icon {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 32rem;
+    height: 32rem;
     position: relative;
 }
 
@@ -36,7 +36,7 @@
         transform: none;
     }
     50% {
-        transform: translateY(-3px);
+        transform: translateY(-3rem);
     }
     100% {
         transform: none;
@@ -45,14 +45,14 @@
 
 .nav__notification {
     position: absolute;
-    top: -4px;
-    right: -10px;
+    top: -5rem;
+    right: -3rem;
     animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__alert {
-    top: 4px;
-    right: -8px;
+    top: 0rem;
+    right: -4rem;
 }
 
 //@keyframes navBtnAni {

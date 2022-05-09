@@ -2,10 +2,11 @@
     display: block;
     text-align: center;
     width: 100%;
+    height: 36rem;
+    line-height: 36rem;
     background-color: #fafafa;
-    padding: 16px 0;
-    font-size: 18px;
-    margin: -15px 0 10px;
+    font-size: 14rem;
+    margin: -15rem 0 10rem;
 }
 
 #friends-display-link svg {
@@ -13,16 +14,17 @@
 }
 
 .friends-screen__channel {
-    margin: 25px 0 0;
+    margin: 15rem 0 0;
     border-top: var(--main-border);
-    padding: 20px 0 0;
+    padding: 20rem 0 0;
 }
 
 .friends-screen__channel-header {
     display: flex;
     justify-content: space-between;
-    padding: 0 0 30px;
+    padding: 0 0 30rem;
     color: var(--text2);
+    font-size: 12rem;
 }
 
 @keyframes hideSplashScreen {

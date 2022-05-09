@@ -1,6 +1,6 @@
 .alt-header {
-    padding: 51px var(--horizontal-space) var(--horizontal-space);
-    margin: 0 0 15px;
+    padding: 51rem var(--horizontal-space) var(--horizontal-space);
+    margin: 0 0 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,10 +23,10 @@
 }
 
 .alt-header__column span:last-child {
-    margin-left: 20px;
+    margin-left: 16rem;
 }
 
 .alt-header__title {
-    font-size: 24px;
+    font-size: 20rem;
     font-weight: bold;
 }

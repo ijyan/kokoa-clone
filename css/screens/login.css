@@ -1,5 +1,5 @@
 .welcome-header {
-    margin: 90px 0;
+    margin: 90rem 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -7,28 +7,29 @@
 }
 
 .welcome-header__title {
-    margin-bottom: 30px;
-    font-size: 25px;
+    margin-bottom: 30rem;
+    font-size: 20rem;
     font-weight: 700;
 }
 
 .welcome-header__text {
-    width: 60%;
+    width: 80%;
     opacity: 0.7;
+    font-size: 14rem;
 }
 
 .login-form {
     display: flex;
     flex-direction: column;
-    margin: 0 30px;
+    margin: 0 30rem;
 }
 
 .login-form__input {
-    padding: 16px 0;
+    padding: 16rem 0;
     border: none;
-    border-bottom: 2px solid #ebebeb;
-    font-size: 16px;
-    margin: 0 0 24px;
+    border-bottom: 2rem solid #ebebeb;
+    font-size: 16rem;
+    margin: 0 0 24rem;
     outline: 0;
     transition: border-color 0.2s ease-in-out;
 }
@@ -43,21 +44,21 @@
 
 .login-form__btn {
     display: block;
-    height: 52px;
-    line-height: 52px;
+    height: 52rem;
+    line-height: 52rem;
     background-color: var(--yellow);
     border: none;
-    border-radius: 10px;
+    border-radius: 10rem;
     color: var(--text1);
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15rem;
     cursor: pointer;
-    margin: 0 0 24px;
+    margin: 0 0 24rem;
 }
 
 .login-form__a {
     text-align: center;
     text-decoration: none;
     color: inherit;
-    font-size: 12px;
+    font-size: 12rem;
 }

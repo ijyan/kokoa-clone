@@ -27,7 +27,7 @@
 }
 
 .main-chat {
-    margin: 130px 0 0 0;
+    margin: 110rem 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,30 +37,30 @@
 .chat__timestamp {
     color: #fff;
     background-color: #95a4b2;
-    padding: 10px 18px;
-    border-radius: 18px;
-    font-size: 14px;
-    margin: 0 0 25px;
+    padding: 10rem 18rem;
+    border-radius: 18rem;
+    font-size: 14rem;
+    margin: 0 0 25rem;
 }
 
 .message-row {
     width: 100%;
     display: flex;
-    margin: 0 0 25px;
+    margin: 0 0 25rem;
 }
 
 .message-row img {
-    width: 50px;
-    height: 50px;
+    width: 34rem;
+    height: 34rem;
     border-radius: 40%;
 }
 
 .message-row__content {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 15rem;
 }
 
 .message_author {
-    margin: 0 0 6px;
+    margin: 0 0 6rem;
     display: block;
 }
 
@@ -71,17 +71,17 @@
 
 .message__text {
     background-color: #fff;
-    padding: 10px 13px;
-    border-radius: 15px;
+    padding: 10rem 13rem;
+    border-radius: 15rem;
     border-top-left-radius: 0;
-    font-size: 20px;
-    margin: 0 8px 0 0;
+    font-size: 16rem;
+    margin: 0 8rem 0 0;
 }
 
 .message_author,
 .message__time {
     opacity: 0.7;
-    font-size: 16px;
+    font-size: 13rem;
 }
 
 .message-row--own {
@@ -91,8 +91,8 @@
 .message-row--own .message__text {
     background-color: var(--yellow);
     border-top-right-radius: 0;
-    border-top-left-radius: 15px;
-    margin: 0 0 0 8px;
+    border-top-left-radius: 15rem;
+    margin: 0 0 0 8rem;
 }
 
 .message-row--own .message__messages {
@@ -107,13 +107,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 25px;
+    padding: 5rem 12rem;
     transition: all 0.3s ease-in-out;
 }
 
 .reply:focus-within .reply__input {
     width: 95vw;
-    transform: translateX(-10%);
+    transform: translateX(-8.5%);
 }
 
 .reply:focus-within .reply__column--plus,
@@ -139,30 +139,30 @@
 
 .reply__input {
     width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    height: 40px;
-    padding: 0 16px;
+    border: 1rem solid #ddd;
+    border-radius: 20rem;
+    height: 40rem;
+    padding: 0 16rem;
     transition: all 0.3s ease-in-out;
 }
 
 .reply__column--write > svg,
 .reply button {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 4rem;
+    right: 4rem;
 }
 
 .reply__column--write > svg {
-    right: 50px;
-    top: 4px;
+    right: 45rem;
+    top: 8rem;
 }
 
 .reply__column button {
     background-color: var(--yellow);
     border: none;
-    width: 36px;
-    height: 36px;
+    width: 32rem;
+    height: 32rem;
     border-radius: 50%;
     display: flex;
     align-items: center;

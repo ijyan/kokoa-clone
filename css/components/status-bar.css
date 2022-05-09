@@ -1,12 +1,14 @@
 .status-bar {
     display: flex;
     justify-content: center;
-    padding: 5px 10px;
+    align-items: center;
+    padding: 5rem 10rem;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #fff;
     z-index: 2;
+    font-size: 13rem;
 }
 
 .status-bar__column {
@@ -31,5 +33,5 @@
 }
 
 .status-bar__column:last-child svg {
-    margin-left: 4px;
+    margin-left: 4rem;
 }

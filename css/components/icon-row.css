@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
+    padding: 20rem 0;
     width: 25%;
     position: relative;
 }
@@ -16,14 +16,14 @@
 }
 
 .icon-row__icon span {
-    margin: 20px 0 0;
-    font-size: 18px;
+    margin: 10rem 0 0;
+    font-size: 14rem;
     text-align: center;
     line-height: 1.2;
     font-weight: 300;
 }
 
 .icon-row__alert {
-    top: -24px;
-    right: -8px;
+    top: -16rem;
+    right: -8rem;
 }
