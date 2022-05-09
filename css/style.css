@@ -12,6 +12,7 @@
 @import 'components/badge.css';
 @import 'components/icon-row.css';
 @import 'components/alt-screen-header.css';
+@import 'components/no-mobile.css';
 
 /* Screens */
 @import 'screens/login.css';
@@ -21,10 +22,14 @@
 @import 'screens/settings.css';
 @import 'screens/chat.css';
 
+html {
+    font-size: 6.3%;
+    //font-size: 0.09775171065493645vw;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto,
-        'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        sans-serif;
     color: var(--text1);
 }
 
