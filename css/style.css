@@ -23,16 +23,22 @@
 @import 'screens/chat.css';
 
 html {
-    font-size: 6.3%;
-    //font-size: 0.09775171065493645vw;
+    font-size: 6.25%;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         sans-serif;
     color: var(--text1);
+    font-size: 16rem;
 }
 
 .main-screen {
     padding: 0 var(--horizontal-space);
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 0.26666666666666665vw;
+    }
 }
